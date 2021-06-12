@@ -7,5 +7,7 @@ description = "Rust's forward_ref_* macros for easier implementation of operator
 homepage = "https://github.com/jtempest/forward_ref"
 repository = "https://github.com/jtempest/forward_ref"
 documentation = "https://docs.rs/forward_ref"
+keywords = ["operators", "op", "ops", "overload", "overloading"]
+categories = ["rust-patterns"]
 include = ["Cargo.toml", "src/**/*.rs", "README.md", "COPYRIGHT", "LICENSE-APACHE", "LICENSE-MIT"]
 edition = "2018"
