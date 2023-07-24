@@ -5,6 +5,8 @@
 //!
 //! [internal_macros.rs]: https://github.com/rust-lang/rust/blob/master/library/core/src/internal_macros.rs
 
+#![no_std]
+
 /// Extend a unary operator trait impl over refs.
 ///
 /// Given an implementation of `op T` where T is `Copy`able, implements the unary
